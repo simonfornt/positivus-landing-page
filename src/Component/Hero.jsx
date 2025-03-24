@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 
 function Hero({ title, description, buttonText, imageSrc }) {
   return (
@@ -6,7 +7,7 @@ function Hero({ title, description, buttonText, imageSrc }) {
       <div className='w-xl text-center md:text-left'>
         <h1 className='text-[60px] leading-18  mb-4'>{title}</h1>
         <p className='mb-6'>{description}</p>
-        <button className='text-white text-center bg-black py-3 px-6 rounded-lg'>{buttonText}</button>
+        <Button/>
       </div>
       <div className='mt-6'>
         <img src={imageSrc} alt="Hero Section" />

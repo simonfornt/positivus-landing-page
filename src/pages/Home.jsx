@@ -5,6 +5,10 @@ import Hero from '../Component/Hero';
 import BrandSection from '../Component/BrandSection';
 import Service from '../Component/Service';
 import Proposal from '../Component/Proposal';
+import CaseSection from '../Component/Casesection';
+import Radio from '../Component/Accordion';
+
+
 
 function Home() {
   return (
@@ -16,6 +20,8 @@ function Home() {
     <BrandSection/>
     <Service/>
     <Proposal/>
+   <CaseSection/>
+   <Radio/>
     </>
   )
 }
