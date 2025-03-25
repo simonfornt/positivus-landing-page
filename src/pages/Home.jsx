@@ -7,6 +7,8 @@ import Service from '../Component/Service';
 import Proposal from '../Component/Proposal';
 import CaseSection from '../Component/Casesection';
 import Radio from '../Component/Accordion';
+import TeamSection from '../Component/TeamSection';
+import Testimonials from '../Component/Testimonials';
 
 
 
@@ -22,6 +24,8 @@ function Home() {
     <Proposal/>
    <CaseSection/>
    <Radio/>
+   <TeamSection/>
+   <Testimonials/>
     </>
   )
 }
