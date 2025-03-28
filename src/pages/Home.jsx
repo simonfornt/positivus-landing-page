@@ -9,6 +9,7 @@ import CaseSection from '../Component/Casesection';
 import Radio from '../Component/Accordion';
 import TeamSection from '../Component/TeamSection';
 import Testimonials from '../Component/Testimonials';
+import Footer from '../Component/Footer';
 
 
 
@@ -26,6 +27,8 @@ function Home() {
    <Radio/>
    <TeamSection/>
    <Testimonials/>
+
+    <Footer/>
     </>
   )
 }
